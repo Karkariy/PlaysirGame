@@ -1,0 +1,1205 @@
+﻿[2015.09.24-17.14.41:555][  0]Log file open, 09/24/15 19:14:41
+[2015.09.24-17.14.41:555][  0]LogInit:Display: Running engine for game: PlaysirGame
+[2015.09.24-17.14.41:555][  0]LogInit:Display: RandInit(-1293204374) SRandInit(-1293204374).
+[2015.09.24-17.14.41:555][  0]LogTaskGraph: Started task graph with 4 named threads and 8 total threads.
+[2015.09.24-17.14.41:555][  0]LogStats: Stats thread started
+[2015.09.24-17.14.41:555][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.24-17.14.41:555][  0]LogInit: API Version: 2579680
+[2015.09.24-17.14.41:555][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.24-17.14.41:555][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.24-17.14.41:555][  0]LogInit: Build Configuration: Development
+[2015.09.24-17.14.41:555][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.24-17.14.41:555][  0]LogInit: Command line:  
+[2015.09.24-17.14.41:555][  0]LogInit: Base directory: F:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.09.24-17.14.41:555][  0]LogInit: Rocket: 1
+[2015.09.24-17.14.41:568][  0]LogInit: Using libcurl 7.41.0
+[2015.09.24-17.14.41:568][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.24-17.14.41:568][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.24-17.14.41:568][  0]LogInit:  - other features:
+[2015.09.24-17.14.41:568][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.24-17.14.41:568][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.24-17.14.41:568][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.24-17.14.41:568][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.24-17.14.41:568][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.24-17.14.41:568][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.24-17.14.41:568][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.24-17.14.41:568][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.24-17.14.41:568][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.24-17.14.41:568][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.24-17.14.41:580][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.24-17.14.41:596][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.24-17.14.41:602][  0]LogInit: Object subsystem initialized
+[2015.09.24-17.14.41:603][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.09.24-17.14.41:603][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Users/Bil L-Karkariy/Documents/Unreal Projects/Unreal/PlaysirGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.24-17.14.41:603][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.09.24-17.14.41:603][  0]LogConsoleResponse:Warning:   Found in ini file 'E:/Users/Bil L-Karkariy/Documents/Unreal Projects/Unreal/PlaysirGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.24-17.14.41:603][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.09.24-17.14.41:603][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.24-17.14.41:603][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.24-17.14.41:609][  0]LogInit: Computer: BIGPC
+[2015.09.24-17.14.41:609][  0]LogInit: User: BilLKarkariy
+[2015.09.24-17.14.41:609][  0]LogInit: CPU Page size=4096, Cores=6
+[2015.09.24-17.14.41:609][  0]LogInit: High frequency timer resolution =3.222651 MHz
+[2015.09.24-17.14.41:609][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2015.09.24-17.14.41:609][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.24-17.14.41:609][  0]LogMemory: Process Physical Memory: 50.97 MB used, 50.97 MB peak
+[2015.09.24-17.14.41:609][  0]LogMemory: Process Virtual Memory: 23.55 MB used, 24.33 MB peak
+[2015.09.24-17.14.41:609][  0]LogMemory: Physical Memory: 5231.21 MB used, 32595.68 MB total
+[2015.09.24-17.14.41:609][  0]LogMemory: Virtual Memory: 297.28 MB used, 134217728.00 MB total
+[2015.09.24-17.14.41:643][  0]LogTextLocalizationManager: The requested culture ('fr_FR') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.09.24-17.14.41:843][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (F:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (F:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.24-17.14.42:391][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 970 (Feature Level 11_0)
+[2015.09.24-17.14.42:391][  0]LogD3D11RHI: Adapter has 3944MB of dedicated video memory, 0MB of dedicated system memory, and 16297MB of shared system memory, 1 output[s]
+[2015.09.24-17.14.42:393][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.24-17.14.42:393][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.09.24-17.14.42:393][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.24-17.14.42:397][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.24-17.14.42:397][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.24-17.14.42:397][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.09.24-17.14.42:411][  0]LogD3D11RHI: Async texture creation enabled
+[2015.09.24-17.14.42:427][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.24-17.14.43:255][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.24-17.14.43:270][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.24-17.14.43:285][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.24-17.14.43:300][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.24-17.14.43:315][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.24-17.14.43:331][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.24-17.14.43:357][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.24-17.14.43:372][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.24-17.14.43:386][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.24-17.14.43:399][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.24-17.14.43:413][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.24-17.14.43:426][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.24-17.14.43:476][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.24-17.14.43:504][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.24-17.14.43:522][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.24-17.14.43:538][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.24-17.14.43:538][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.24-17.14.43:764][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.24-17.14.43:813][  0]LogDerivedDataCache: Loaded boot cache 0.05s 53MB C:/Users/Bil L-Karkariy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.24-17.14.43:813][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bil L-Karkariy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.24-17.14.43:813][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Users/Bil L-Karkariy/Documents/Unreal Projects/Unreal/PlaysirGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.24-17.14.43:814][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.24-17.14.43:814][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Users/Bil L-Karkariy/Documents/Unreal Projects/Unreal/PlaysirGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.24-17.14.43:814][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.24-17.14.43:948][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.24-17.14.43:960][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bil L-Karkariy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.24-17.14.44:179][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.24-17.14.44:257][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.24-17.14.44:257][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.24-17.14.44:285][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.24-17.14.44:285][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.24-17.14.44:625][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.24-17.14.45:805][  0]LogAssetRegistry: FAssetRegistry took 0.0110 seconds to start up
+[2015.09.24-17.14.45:817][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.24-17.14.45:829][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.24-17.14.46:177][  0]SourceControl: Info Source control is disabled
+[2015.09.24-17.14.46:429][  0]SourceControl: Info Source control is disabled
+[2015.09.24-17.14.46:444][  0]SourceControl: Info Source control is disabled
+[2015.09.24-17.14.46:454][  0]SourceControl: Info Source control is disabled
+[2015.09.24-17.14.46:722][  0]LogObj: 26447 objects as part of root set at end of initial load.
+[2015.09.24-17.14.46:722][  0]LogUObjectAllocator: 5440392 out of 0 bytes used by permanent object pool.
+[2015.09.24-17.14.46:817][  0]LogEngine: Initializing Engine...
+[2015.09.24-17.14.46:820][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.24-17.14.46:821][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.24-17.14.47:004][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.24-17.14.47:021][  0]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.24-17.14.47:042][  0]LogInit: FAudioDevice initialized.
+[2015.09.24-17.14.47:066][  0]LogDerivedDataCache: Saved boot cache 0.02s 53MB C:/Users/Bil L-Karkariy/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.24-17.14.47:072][  0]LogInit: Texture streaming: Disabled
+[2015.09.24-17.14.47:096][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.24-17.14.47:096][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.24-17.14.47:096][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId ee39b0ae401c0f0d14a3a5a0a6b9cdc7|f233d3cbc0e1497caac58431293a0896|888dd58e-db3d-4c41-b67c-14c1c190ebe2
+[2015.09.24-17.14.47:097][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.24-17.14.47:150][  0]LogInit: Transaction tracking system initialized
+[2015.09.24-17.14.47:299][  0]BlueprintLog: New page: Editor Load
+[2015.09.24-17.14.47:853][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.24-17.14.47:907][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.24-17.14.47:907][  0]LogConsoleResponse:Display: 
+[2015.09.24-17.14.48:013][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.24-17.14.48:265][  0]SourceControl: Info Source control is disabled
+[2015.09.24-17.14.48:265][  0]Cmd: MAP LOAD FILE="E:/Users/Bil L-Karkariy/Documents/Unreal Projects/Unreal/PlaysirGame/Content/AdvancedTurnBasedTileToolkit/Maps/Map_Grid_Example.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.24-17.14.48:265][  0]LogEditorServer:Warning: Can't find file 'E:/Users/Bil L-Karkariy/Documents/Unreal Projects/Unreal/PlaysirGame/Content/AdvancedTurnBasedTileToolkit/Maps/Map_Grid_Example.umap'
+[2015.09.24-17.14.48:266][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.24-17.14.48:341][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 74.982ms to complete.
+[2015.09.24-17.14.48:341][  0]LogFileHelpers: Loading map 'Map_Grid_Example' took 0.075
+[2015.09.24-17.14.48:450][  0]LogCollectionManager: Loaded 0 collections in 0.001592 seconds
+[2015.09.24-17.14.48:456][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 1809 classes and 308 folders.
+[2015.09.24-17.14.48:496][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.24-17.14.48:529][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.24-17.14.48:544][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2015.09.24-17.14.48:589][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.24-17.14.48:590][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.24-17.14.48:593][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.24-17.14.48:616][  0]LogLoad: Full Startup: 8.89 seconds (BP compile: 0.01 seconds)
+[2015.09.24-17.14.49:008][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.24-17.14.49:036][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.24-17.14.49:208][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.24-17.14.51:295][  7]LogAssetRegistry: Asset discovery search completed in 5.5026 seconds
+[2015.09.24-17.15.33:287][133]LogD3D11RHI: InitD3DDevice
+[2015.09.24-17.15.38:712][741]LogD3D11RHI: InitD3DDevice
+[2015.09.24-17.15.38:843][741]LogAIModule: Creating AISystem for world BeginGame_Level_0
+[2015.09.24-17.15.38:899][741]Cmd: MAP LOAD FILE="E:/Users/Bil L-Karkariy/Documents/Unreal Projects/Unreal/PlaysirGame/Content/PlaysirGame/Maps/BeginGame_Level_0.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.24-17.15.38:899][741]LightingResults: New page: Lighting Build
+[2015.09.24-17.15.38:911][741]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2015.09.24-17.15.38:929][741]LoadErrors: New page: Loading map: BeginGame_Level_0.umap
+[2015.09.24-17.15.38:929][741]MapCheck: New page: Map Check
+[2015.09.24-17.15.38:929][741]LightingResults: New page: Lighting Build
+[2015.09.24-17.15.38:943][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A80E905300
+[2015.09.24-17.15.39:009][741]LogAIModule: Creating AISystem for world BeginGame_Level_0
+[2015.09.24-17.15.39:030][741]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.24-17.15.39:044][741]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.24-17.15.39:123][741]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.827ms to complete.
+[2015.09.24-17.15.39:125][741]LogFileHelpers: Loading map 'BeginGame_Level_0' took 0.226
+[2015.09.24-17.15.41:629][ 38]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.09.24-17.15.41:632][ 38]PIE: New page: PIE session: BeginGame_Level_0 (Sep 24, 2015, 9:15:41 PM)
+[2015.09.24-17.15.41:633][ 38]LogPlayLevel: Creating play world package: /Game/PlaysirGame/Maps/UEDPIE_0_BeginGame_Level_0
+[2015.09.24-17.15.41:633][ 38]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000396s)
+[2015.09.24-17.15.41:634][ 38]LogAIModule: Creating AISystem for world BeginGame_Level_0
+[2015.09.24-17.15.41:634][ 38]LogPlayLevel: PIE: World Init took: (0.000879s)
+[2015.09.24-17.15.41:634][ 38]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PlaysirGame/Maps/BeginGame_Level_0.BeginGame_Level_0 to /Game/PlaysirGame/Maps/UEDPIE_0_BeginGame_Level_0.BeginGame_Level_0 (0.001417s)
+[2015.09.24-17.15.41:668][ 38]LogInit: XAudio2 using 'Haut-parleurs (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.24-17.15.41:681][ 38]LogInit: FAudioDevice initialized.
+[2015.09.24-17.15.41:726][ 38]LogWorld: Game class is 'Menu_C'
+[2015.09.24-17.15.41:730][ 38]LogWorld: Bringing World /Game/PlaysirGame/Maps/UEDPIE_0_BeginGame_Level_0.BeginGame_Level_0 up for play (max tick rate 0) at 2015.09.24-19.15.41
+[2015.09.24-17.15.41:730][ 38]LogActor:Warning: GameSession /Game/PlaysirGame/Maps/UEDPIE_0_BeginGame_Level_0.BeginGame_Level_0:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.24-17.15.41:731][ 38]LogActor:Warning: GameNetworkManager /Game/PlaysirGame/Maps/UEDPIE_0_BeginGame_Level_0.BeginGame_Level_0:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.24-17.15.41:731][ 38]LogWorld: Bringing up level for play took: 0.000874
+[2015.09.24-17.15.41:733][ 38]PIE: Info Play in editor start time for /Game/PlaysirGame/Maps/UEDPIE_0_BeginGame_Level_0 0.598
+[2015.09.24-17.15.43:957][295]LogPackageName: SearchForPackageOnDisk took   0.069s to resolve Map_Height_Example.umap
+[2015.09.24-17.15.44:039][295]LogPackageName: SearchForPackageOnDisk took   0.081s to resolve Map_Height_Example.umap
+[2015.09.24-17.15.44:039][295]LogNet: Browse: /Game/PlaysirGame/Maps/Map_Height_Example
+[2015.09.24-17.15.44:039][295]LogLoad: LoadMap: /Game/PlaysirGame/Maps/Map_Height_Example
+[2015.09.24-17.15.44:054][295]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A80D5ED080
+[2015.09.24-17.15.44:067][295]Cmd: MEM
+[2015.09.24-17.15.44:087][295]LogMemory: Platform Memory Stats for Windows
+[2015.09.24-17.15.44:087][295]LogMemory: Process Physical Memory: 533.00 MB used, 594.23 MB peak
+[2015.09.24-17.15.44:087][295]LogMemory: Process Virtual Memory: 855.11 MB used, 872.55 MB peak
+[2015.09.24-17.15.44:087][295]LogMemory: Physical Memory: 5740.45 MB used, 32595.68 MB total
+[2015.09.24-17.15.44:087][295]LogMemory: Virtual Memory: 1528.39 MB used, 134217728.00 MB total
+[2015.09.24-17.15.44:087][295]LogMemory: 
+[2015.09.24-17.15.44:087][295]Allocator Stats for TBB: (not implemented)
+[2015.09.24-17.15.50:237][295]LogAIModule: Creating AISystem for world Map_Height_Example
+[2015.09.24-17.15.50:238][295]LogWorld: Game class is 'ATBTT_GameMode_C'
+[2015.09.24-17.15.50:268][295]LogWorld: Bringing World /Game/PlaysirGame/Maps/UEDPIE_0_Map_Height_Example.Map_Height_Example up for play (max tick rate 3) at 2015.09.24-19.15.50
+[2015.09.24-17.15.50:268][295]LogActor:Warning: GameSession /Game/PlaysirGame/Maps/UEDPIE_0_Map_Height_Example.Map_Height_Example:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.24-17.15.50:269][295]LogActor:Warning: GameNetworkManager /Game/PlaysirGame/Maps/UEDPIE_0_Map_Height_Example.Map_Height_Example:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.09.24-17.15.50:269][295]LogWorld: Bringing up level for play took: 0.029334
+[2015.09.24-17.15.50:270][295]LogGameMode: Warning - PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2015.09.24-17.15.50:273][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [0/0]!
+[2015.09.24-17.15.50:273][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [1/0]!
+[2015.09.24-17.15.50:273][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [2/0]!
+[2015.09.24-17.15.50:273][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [3/0]!
+[2015.09.24-17.15.50:273][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [4/0]!
+[2015.09.24-17.15.50:273][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [5/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [6/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [7/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [8/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [9/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [10/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [11/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [12/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [13/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [14/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [15/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [16/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [17/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [18/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [19/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [20/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [21/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [22/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [23/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [24/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [25/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [26/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [27/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [28/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [29/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [30/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [31/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [32/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [33/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [34/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [35/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [36/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [37/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [38/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [39/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [40/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [41/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [42/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [43/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [44/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [45/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [46/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [47/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [48/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [49/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [50/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [51/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [52/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [53/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [54/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [55/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [56/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [57/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [58/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [59/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [60/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [61/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [62/0]!
+[2015.09.24-17.15.50:274][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [63/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [64/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [65/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [66/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [67/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [68/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [69/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [70/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [71/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [72/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [73/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [74/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [75/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [76/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [77/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [78/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [79/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [80/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [81/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [82/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [83/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [84/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [85/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [86/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [87/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [88/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [89/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [90/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [91/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [92/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [93/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [94/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [95/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [96/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [97/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [98/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [99/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [100/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [101/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [102/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [103/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [104/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [105/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [106/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [107/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [108/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [109/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [110/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [111/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [112/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [113/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [114/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [115/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [116/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [117/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [118/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [119/0]!
+[2015.09.24-17.15.50:275][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [120/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [121/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [122/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [123/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [124/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [125/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [126/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [127/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [128/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [129/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [130/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [131/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [132/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [133/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [134/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [135/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [136/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [137/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [138/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [139/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [140/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [141/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [142/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [143/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [144/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [145/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [146/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [147/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [148/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [149/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [150/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [151/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [152/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [153/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [154/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [155/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [156/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [157/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [158/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [159/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [160/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [161/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [162/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [163/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [164/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [165/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [166/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [167/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [168/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [169/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [170/0]!
+[2015.09.24-17.15.50:276][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [171/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [172/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [173/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [174/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [175/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [176/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [177/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [178/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [179/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [180/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [181/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [182/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [183/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [184/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [185/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [186/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [187/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [188/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [189/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [190/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [191/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [192/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [193/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [194/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [195/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [196/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [197/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [198/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [199/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [200/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [201/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [202/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [203/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [204/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [205/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [206/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [207/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [208/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [209/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [210/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [211/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [212/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [213/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [214/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [215/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [216/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [217/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [218/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [219/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [220/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [221/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [222/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [223/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [224/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [225/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [226/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [227/0]!
+[2015.09.24-17.15.50:277][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [228/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [229/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [230/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [231/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [232/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [233/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [234/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [235/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [236/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [237/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [238/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [239/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [240/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [241/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [242/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [243/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [244/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [245/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [246/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [247/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [248/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [249/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [250/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [251/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [252/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [253/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [254/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [255/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [256/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [257/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [258/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [259/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [260/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [261/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [262/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [271/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [272/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [273/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [274/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [275/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [276/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [277/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [278/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [279/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [280/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [281/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [282/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [283/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [284/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [285/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [286/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [287/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [288/0]!
+[2015.09.24-17.15.50:278][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [289/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [290/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [295/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [296/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [297/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [299/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [300/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [301/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [302/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [303/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [304/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [305/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [306/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [307/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [308/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [309/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [310/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [311/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [312/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [313/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [314/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [315/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [316/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [317/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [318/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [320/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [321/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [322/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [323/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [324/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [325/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [327/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [328/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [329/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [330/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [331/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [332/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [333/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [334/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [335/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [336/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [337/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [338/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [339/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [340/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [341/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [342/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [343/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [344/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [345/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [346/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [347/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [348/0]!
+[2015.09.24-17.15.50:279][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [349/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [350/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [351/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [352/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [353/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [355/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [356/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [357/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [358/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [359/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [360/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [361/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [362/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [363/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [364/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [365/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [366/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [367/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [368/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [369/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [370/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [371/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [372/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [373/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [374/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [375/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [376/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [377/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [378/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [379/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [380/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [381/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [383/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [384/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [385/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [386/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [387/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [388/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [389/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [390/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [391/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [392/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [393/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [394/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [395/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [396/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [397/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [398/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [399/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [400/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [401/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [402/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [404/0]!
+[2015.09.24-17.15.50:280][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [405/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [406/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [407/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [408/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [409/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [411/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [412/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [413/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [414/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [415/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [416/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [417/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [418/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [419/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [420/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [421/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [422/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [423/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [424/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [425/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [426/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [427/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [428/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [429/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [430/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [435/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [436/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [437/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [439/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [440/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [441/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [442/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [443/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [444/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [445/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [446/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [447/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [448/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [449/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [450/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [451/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [452/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [453/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [454/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [455/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [456/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [457/0]!
+[2015.09.24-17.15.50:281][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [458/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [467/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [468/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [469/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [470/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [471/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [472/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [473/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [474/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [475/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [476/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [477/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [478/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [479/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [480/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [481/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [482/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [483/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [484/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [485/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [486/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [487/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [488/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [489/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [490/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [491/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [492/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [493/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [494/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [495/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [496/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [497/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [498/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [499/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [500/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [501/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [502/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [503/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [504/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [505/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [506/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [507/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [508/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [509/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [510/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [511/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [512/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [513/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [514/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [515/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [516/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [517/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [518/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [519/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [520/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [521/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [522/0]!
+[2015.09.24-17.15.50:282][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [523/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [524/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [525/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [526/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [527/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [528/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [529/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [530/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [531/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [532/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [533/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [534/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [535/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [536/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [537/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [538/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [539/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [540/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [541/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [542/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [543/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [544/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [545/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [546/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [547/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [548/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [549/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [550/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [551/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [552/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [553/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [554/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [555/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [556/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [557/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [558/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [559/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [560/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [561/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [562/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [563/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [564/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [565/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [566/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [567/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [568/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [569/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [570/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [571/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [572/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [573/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [574/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [575/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [576/0]!
+[2015.09.24-17.15.50:283][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [577/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [578/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [579/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [580/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [581/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [582/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [583/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [584/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [585/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [586/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [587/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [588/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [589/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [590/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [591/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [592/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [593/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [594/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [595/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [596/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [597/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [598/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [599/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [600/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [601/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [602/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [603/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [604/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [605/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [606/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [607/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [608/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [609/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [610/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [611/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [612/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [613/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [614/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [615/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [616/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [617/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [618/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [619/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [620/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [621/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [622/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [623/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [624/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [625/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [626/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [627/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [628/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [629/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [630/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [631/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [632/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [633/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [634/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [635/0]!
+[2015.09.24-17.15.50:284][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [636/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [637/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [638/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [639/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [640/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [641/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [642/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [643/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [644/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [645/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [646/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [647/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [648/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [649/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [650/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [651/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [652/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [653/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [654/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [655/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [656/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [657/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [658/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [659/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [660/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [661/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [662/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [663/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [664/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [665/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [666/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [667/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [668/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [669/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [670/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [671/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [672/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [673/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [674/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [675/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [676/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [677/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [678/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [679/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [680/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [681/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [682/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [683/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [684/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [685/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [686/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [687/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [688/0]!
+[2015.09.24-17.15.50:285][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [689/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [690/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [691/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [692/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [693/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [694/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [695/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [696/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [697/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [698/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [699/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [700/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [701/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [702/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [703/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [704/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [705/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [706/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [707/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [708/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [709/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [710/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [711/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [712/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [713/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [714/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [715/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [716/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [717/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [718/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [719/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [720/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [721/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [722/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [723/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [724/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [725/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [726/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [727/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [728/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [729/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [730/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [731/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [732/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [733/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [734/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [735/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [736/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [737/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [738/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [739/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [740/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [741/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [742/0]!
+[2015.09.24-17.15.50:286][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [743/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [744/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [745/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [746/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [747/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [748/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [749/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [750/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [751/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [752/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [753/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [754/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [755/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [756/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [757/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [758/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [759/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [760/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [761/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [762/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [763/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [764/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [765/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [766/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [767/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [768/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [769/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [770/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [771/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [772/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [773/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [774/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [775/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [776/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [777/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [778/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [779/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [780/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [781/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [782/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to set an invalid index on array RotatorArray [783/0]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-1/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-28/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-27/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-26/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-25/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-24/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-23/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-22/783]!
+[2015.09.24-17.15.50:287][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-21/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-20/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-19/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-18/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-17/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-16/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-15/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-14/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-13/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-12/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-11/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-10/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-9/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-8/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-7/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-6/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-5/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-4/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-3/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-2/783]!
+[2015.09.24-17.15.50:288][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [-1/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [784/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [785/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [786/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [787/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [788/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [789/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [790/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [791/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [792/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [793/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [794/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [795/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [796/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [797/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [798/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [799/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [800/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [801/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [802/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [803/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [804/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [805/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [806/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [807/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [808/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [809/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [810/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [784/783]!
+[2015.09.24-17.15.50:292][295]LogArray:Warning: Attempted to get an item from array VectorFieldArray out of bounds [811/783]!
+[2015.09.24-17.16.22:817][651]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A83A535300
+[2015.09.24-17.43.38:268][534]Cmd: QUIT_EDITOR
+[2015.09.24-17.43.38:679][534]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.24-17.43.38:680][534]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.24-17.43.38:959][534]LogExit: Preparing to exit.
+[2015.09.24-17.43.39:916][534]LogExit: Editor shut down
+[2015.09.24-17.43.39:917][534]LogExit: Transaction tracking system shut down
+[2015.09.24-17.43.39:917][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A80DCD31A0
+[2015.09.24-17.43.39:918][534]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A80D25CFE0
+[2015.09.24-17.43.40:081][534]LogExit: Object subsystem successfully closed.
+[2015.09.24-17.43.40:095][534]LogD3D11RHI: Shutdown
+[2015.09.24-17.43.40:095][534]LogD3D11RHI: CleanupD3DDevice
+[2015.09.24-17.43.40:139][534]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.24-17.43.40:156][534]LogModuleManager: Shutting down and abandoning module StatsViewer (191)
+[2015.09.24-17.43.40:156][534]LogModuleManager: Shutting down and abandoning module CrashTracker (190)
+[2015.09.24-17.43.40:156][534]LogModuleManager: Shutting down and abandoning module SceneOutliner (189)
+[2015.09.24-17.43.40:156][534]LogModuleManager: Shutting down and abandoning module SuperSearch (188)
+[2015.09.24-17.43.40:156][534]LogModuleManager: Shutting down and abandoning module WidgetCarousel (187)
+[2015.09.24-17.43.40:156][534]LogModuleManager: Shutting down and abandoning module AddContentDialog (186)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module EditorWidgets (185)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module FoliageEdit (183)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module LandscapeEditor (182)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module ActorPickerMode (181)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module GeometryMode (180)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module TextureAlignMode (179)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module BspMode (178)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module PlacementMode (177)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module AutomationWorker (176)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module CharacterAI (175)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module SmartSnapping (174)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module ViewportSnapping (173)
+[2015.09.24-17.43.40:157][534]LogModuleManager: Shutting down and abandoning module LogVisualizer (172)
+[2015.09.24-17.43.40:158][534]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (171)
+[2015.09.24-17.43.40:158][534]LogModuleManager: Shutting down and abandoning module IntroTutorials (170)
+[2015.09.24-17.43.40:158][534]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (169)
+[2015.09.24-17.43.40:158][534]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (168)
+[2015.09.24-17.43.40:158][534]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (167)
+[2015.09.24-17.43.40:158][534]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (166)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (165)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (164)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (163)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module MergeActors (162)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module SizeMap (161)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module TreeMap (160)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module ReferenceViewer (159)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (158)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module HardwareTargeting (157)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (156)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module UndoHistory (155)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (154)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module UserFeedback (153)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module XmlParser (152)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module Blutility (151)
+[2015.09.24-17.43.40:781][534]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (150)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (149)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module InputBindingEditor (148)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (147)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module SettingsEditor (146)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module ProjectLauncher (145)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module SessionFrontend (144)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module ProfilerClient (143)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (142)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module DeviceManager (141)
+[2015.09.24-17.43.40:782][534]LogModuleManager: Shutting down and abandoning module AutomationController (140)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module AutomationWindow (139)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module Layers (138)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (137)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module DetailCustomizations (136)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module PackagesDialog (135)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module Persona (134)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module Kismet (133)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module GraphEditor (132)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module ClassViewer (131)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module Toolbox (130)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module ModuleUI (129)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module MovieSceneTools (128)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module OutputLog (127)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module GammaUI (126)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module Documentation (125)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (124)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (123)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module AnalyticsET (122)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module Analytics (121)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module AITestSuite (120)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module GameplayDebugger (119)
+[2015.09.24-17.43.40:783][534]LogModuleManager: Shutting down and abandoning module AIModule (118)
+[2015.09.24-17.43.40:784][534]LogModuleManager: Shutting down and abandoning module ProfilerService (117)
+[2015.09.24-17.43.40:800][534]LogModuleManager: Shutting down and abandoning module TaskGraph (116)
+[2015.09.24-17.43.40:800][534]LogModuleManager: Shutting down and abandoning module SubstanceEditor (115)
+[2015.09.24-17.43.40:800][534]LogModuleManager: Shutting down and abandoning module SlateRemote (114)
+[2015.09.24-17.43.40:814][534]LogModuleManager: Shutting down and abandoning module SteamVRController (113)
+[2015.09.24-17.43.40:814][534]LogModuleManager: Shutting down and abandoning module SteamVR (112)
+[2015.09.24-17.43.40:814][534]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (111)
+[2015.09.24-17.43.40:814][534]LogModuleManager: Shutting down and abandoning module OculusRift (110)
+[2015.09.24-17.43.40:814][534]LogModuleManager: Shutting down and abandoning module LeapMotionController (109)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (108)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module CableComponent (107)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module MessagingDebugger (106)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (105)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (104)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module PluginBrowser (103)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module EpicSurvey (102)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module DesktopPlatform (101)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (100)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module UObjectPlugin (99)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (98)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (97)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module SourceControl (96)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module GitSourceControl (95)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module BlankPlugin (94)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (93)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (92)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module MeshPaint (91)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module SlateReflector (90)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module MainFrame (88)
+[2015.09.24-17.43.40:834][534]LogModuleManager: Shutting down and abandoning module LevelEditor (87)
+[2015.09.24-17.43.40:835][534]LogModuleManager: Shutting down and abandoning module ContentBrowser (86)
+[2015.09.24-17.43.40:836][534]LogModuleManager: Shutting down and abandoning module Paper2DEditor (85)
+[2015.09.24-17.43.40:836][534]LogModuleManager: Shutting down and abandoning module PlaysirGame (84)
+[2015.09.24-17.43.40:836][534]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
+[2015.09.24-17.43.40:938][534]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2015.09.24-17.43.40:938][534]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2015.09.24-17.43.41:034][534]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2015.09.24-17.43.41:035][534]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.24-17.43.41:035][534]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.24-17.43.41:038][534]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.24-17.43.41:038][534]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.24-17.43.41:039][534]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.24-17.43.41:040][534]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.24-17.43.41:040][534]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.24-17.43.41:040][534]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.24-17.43.41:043][534]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.24-17.43.41:121][534]LogDerivedDataCache: Shutdown
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.24-17.43.41:121][534]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.24-17.43.41:122][534]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.24-17.43.41:123][534]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.24-17.43.41:127][534]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.24-17.43.41:128][534]LogExit: Exiting.
+[2015.09.24-17.43.41:131][534]Log file closed, 09/24/15 19:43:41
